@@ -9,7 +9,8 @@
 function largestPrimeFactor(number) {
 
     //Smallest prime number is 2, this is our start point
-    let primeNumber, largestPrimeFactor = 2,
+    let primeNumber = 2;
+    let largestPrimeFactor = 2;
 
     while (primeNumber <= number) {
 
@@ -25,7 +26,7 @@ function largestPrimeFactor(number) {
             primeNumber++;
     }
 
-    //console.log(largestPrimeFactor);
+    console.log(largestPrimeFactor);
     return largestPrimeFactor;
 }
 
